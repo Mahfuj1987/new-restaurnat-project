@@ -1,0 +1,230 @@
+.header-style{
+    background: linear-gradient(rgba(0, 0, 0, 0.476),rgba(0, 0, 0, 0.376)), url(../images/d2.jpg)center/cover, no-repeat;
+    height: 100vh;
+}
+.header-tag-line{
+    background-color: rgba(0, 0, 0, 0);
+}
+nav ul li a{
+    font-size: .9rem;
+}
+
+    /* ---------------------------------
+          menu is started 
+   ----------------------------------- */
+.menu{
+    background:linear-gradient(rgba(0, 0, 0, 0.342),rgba(0, 0, 0, 0.342)), url(../images/b5.jpg) center/cover, no-repeat;
+    display: grid;
+    grid-template-columns:1fr;
+    height: 100vh;
+    
+}
+.menu-banner{
+width: 14rem;
+}
+.special-menu{
+    height: 230vh;
+    width: 96%;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .menu-description {
+      grid-template-columns: 1fr;
+  }
+  .description{
+     margin-left: 2rem;
+     text-align: center;
+     text-transform: capitalize;
+  }
+  .special-menu-item h3 {
+      font-size: 2rem;
+  }
+  
+  .special-menu-pic img{
+    height: 13rem;
+    min-width: 14rem;
+}
+.sp-menu-other-two-pic{
+    display: none;
+}
+.sp-menu-display{
+    grid-template-columns: 1fr;
+    align-self: center;
+    justify-self: center;
+}
+.menu-image{
+    display: none;
+}
+/*---------------------------------------------------------
+       Display area is started from here 
+   ---------------------------------------------------------*/
+.display-area-pic h2{
+font-size: 1.7rem;
+}
+.special-menu-pic{
+    grid-template-columns: 1fr;
+}
+
+/*---------------------------------------------------------
+      Reservation Area page is started from here
+   ---------------------------------------------------------*/
+.reservation-area{
+    grid-template-columns: .8fr;
+    grid-row-gap: .5rem;
+    height: 160vh;
+    justify-content: center;
+}
+.left-pic img {
+    max-height: 18rem;
+    max-width: 18rem;
+
+}
+.form-heading-line h2{
+    font-size: 1.5rem;
+}
+.form-heading-line h3{
+    font-size: 1.5rem;
+}
+.form-row{
+    width: 80%; 
+    margin: auto;
+}
+
+/*---------------------------------------------------------
+       The Footer is started from here
+   ---------------------------------------------------------*/
+
+.ft{
+    grid-template-columns:1fr;
+    height: 100vh;
+    width: 100%;
+    color: white;
+  }
+  .fot-menu {
+      margin-top: 2rem;
+      text-align: center;
+      font-family: glory;
+  }
+  .social-icon {
+      margin-bottom: 3rem;
+  }
+  .another-content ul li{
+    text-align: center;
+    padding: 0 4rem;
+    font-size: 1.1rem;
+
+   }
+   .divider-line-footer{
+    display: inline-block;
+    height: .1rem;
+    width: 10rem;
+    background-color: goldenrod;
+  }
+
+/*---------------------------------------------------------
+       The About page is started from here
+   ---------------------------------------------------------*/
+
+.about{
+    grid-template-columns: 1fr;
+    height: 120vh;
+}
+.about-mid-tag-line h2{
+    font-size: 2.1rem;
+    padding: 0;
+}
+.divider-line{
+    display: inline-block;
+    height: .2rem;
+    width: 20rem;
+    background-color: goldenrod;
+  }
+  .mission-and-vision{
+      grid-template-columns: 1fr;
+      height: 95vh;
+      padding: 0 0rem;
+  }
+  .our-mission p{
+    padding: 0 3rem;
+    font-size: 1.1rem;
+}
+.our-vision p{
+    padding: 0 3rem;
+    font-size: 1.1rem;
+}
+  .divider-lines{
+    height: .2rem;
+    width: 12rem;
+  }
+  .our-policy {
+      height: 70vh;
+  }
+  .online-booking p{
+      font-size: .9rem;
+      text-align: center;
+  }
+
+  .location-outlet{
+      grid-template-columns: 1fr;
+      text-align: center;
+      height: 150vh;
+  }
+  .location-content ul li{
+      list-style-type: none;
+      padding: .13rem 0;
+  }
+
+  .contact-mid-tag-line h2{
+      font-size: 1.4rem;
+  }
+  .contact-mid-tag-line p{
+    color: white;
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding-bottom: .5rem;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right:0;
+    font-weight: bolder;
+    border-bottom: .4rem solid rgba(228, 172, 32, 0.993);
+    border-radius: .3rem;
+    margin-top: 1.4rem;
+  }
+  .contactfrom-heading p{
+      font-size: 1.2rem;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .contactfrom-heading h3{
+      font-size: 1.2rem;
+  }
+
+  .inner-section-blog{
+      height: 160vh;
+      grid-template-columns: 1fr;
+  }
+  .the-blog-image img{
+      width: 100%;
+  }
+  .blog-description h2{
+      text-align: center;
+  }
+  .u-line{
+     display: none;
+  }
+  .blog-mid-tag-line h2{
+      font-size: 1.8rem;
+  }
+  .blog-mid-tag-line p{
+      width: 17rem;
+      padding: 0 0rem .6rem 0;
+      font-size: 1.5rem;
+      border-radius: .2rem;
+      text-align: center;
+  }
+  .blog-description h2{
+      font-size: 1.2rem;
+      border-bottom: .1rem solid goldenrod;
+      margin-bottom: 1.9rem;
+  }
